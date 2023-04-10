@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:orientation="vertical"
+    android:gravity="bottom|center"
+    android:padding="20dp"
+    android:background="#673AB7">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="149dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/exicon" />
+
+    <TextView
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:text="gives you Expire Info..."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        android:textStyle="italic" />
+
+
+</LinearLayout>

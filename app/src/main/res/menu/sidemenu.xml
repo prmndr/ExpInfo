@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/home_menu"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home" />
+
+        <item android:id="@+id/dashboard_menu"
+            android:icon="@drawable/ic_baseline_laptop_24"
+            android:title="Dashboard"/>
+
+        <item android:id="@+id/expires_menu"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="Expire Info"/>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Authentication">
+            <menu>
+                <item android:id="@+id/Login_menu"
+                    android:icon="@drawable/ic_baseline_login_24"
+                    android:title="LogIn"/>
+                <item android:id="@+id/Logout_menu"
+                    android:icon="@drawable/ic_baseline_phonelink_lock_24"
+                    android:title="LogOut"/>
+            </menu>
+        </item>
+    </group>
+    <item android:title="Sharing">
+        <menu>
+            <item android:id="@+id/sharing_menu"
+                    android:icon="@drawable/ic_baseline_share_24"
+                    android:title="Share"/>
+
+            <item android:id="@+id/refresh_menu"
+                    android:icon="@drawable/ic_baseline_refresh_24"
+                    android:title="Refresh"/>
+        </menu>
+    </item>
+</menu>
